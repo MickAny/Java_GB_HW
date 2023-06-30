@@ -14,7 +14,6 @@ public class task2 {
         logger.info("Start");
         int[] arr = new int[]{12, 31, 29, 21, 77, 23, 92, 1, 25, 4};
         for (int i = 0; i < arr.length - 1; i++) {
-            // внутренний цикл прохода
             for (int j = arr.length - 1; j > i; j--) {
                 if (arr[j - 1] > arr[j]) {
                     int tmp = arr[j - 1];
